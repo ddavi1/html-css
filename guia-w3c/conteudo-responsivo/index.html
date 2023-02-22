@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+   
+    <style>
+
+        body{
+            background-color: bisque;
+            margin: auto;
+        }
+
+      main{
+            min-width: 300px;
+            max-width: 1000px;
+           
+            margin: auto;
+        }
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+       <main>
+            <picture>
+                <source media="(max-width: 500px )" srcset="img\300x300.jpg" type="image/jpg">
+
+                <source media="(max-width: 850px )" srcset="img\500x500.jpg" type="image/jpg">
+               
+                <img src="img/1920.jpg" alt="dada">
+            </picture>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente officia repudiandae cumque ut alias! Laboriosam veritatis unde culpa accusantium? Consequuntur, iste. Laboriosam inventore, veritatis sit libero dolorum architecto quidem molestias!</p>
+        </main>
+</body>
+</html>

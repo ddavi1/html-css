@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Largura Borda</title>
+    <style>
+        p.one{
+            border-style: solid;
+            border-width: 5px;
+        }
+
+        p.two{
+            border-style: solid;
+            border-width: medium;
+            
+        }
+
+        p.three {
+            border-style: dotted;
+            border-width: 2px;
+        }
+
+        p.four {
+            border-style: dotted;
+            border-width: thick;
+        }
+
+        p.um {
+            border-style: solid;
+            border-width: 5px 20px; 
+        }
+
+            p.dois {
+            border-style: solid;
+            border-width: 20px 5px; 
+        }
+
+            p.tres {
+            border-style: solid;
+            border-width: 25px 10px 4px 35px; 
+        }
+
+        .cor{
+                border-style: solid;
+                border-width: 3px;
+                border-color: greenyellow;
+        }
+
+        .cor2{
+
+                border-style: solid;
+                border-width: 3px;
+                border-color: greenyellow blue red rgb(255, 160, 7); /* greenyellom - top, blue - right, rgd - left, red - bottom */
+        }
+
+        #teste{
+            border: 5px solid black;
+        }
+
+        .left {
+            border-left: 6px solid red;
+        }
+
+        .bottom{
+            border-bottom: 6px solid red;
+        }
+
+        .radius{
+                border: 2px solid rgb(0, 0, 0);
+                border-radius: 5px;
+                
+        }
+    </style>
+</head>
+<body>
+        <h1>Largura Borda</h1>
+                <p class="one">lorem</p>
+                <p class="two">lorem</p>
+                <p class="three">lorem</p>
+                <p class=" four">lorem</p>
+
+        <h1>Lagura Laterais</h1>  
+                <p class="um">lorem</p>
+                <p class="dois">lorem</p>
+                <p class="tres">lorem</p>
+               
+
+        <h1>Cores de borda</h1>
+                 <p class="cor">borda e cor</p>
+                 <p class="cor2"> borda com varias cores</p>
+
+        <h1>Propriedade resumida</h1>
+                <p id="teste">Teste</p>
+
+        <h1>Bordas para apenas um lado</h1>
+                <p class="left">borda</p>
+                <p class="bottom">borda</p>
+
+        <h1>Bordas arrendondas</h1>
+                <p class="radius">borda arrendondas</p>
+</body>
+</html>

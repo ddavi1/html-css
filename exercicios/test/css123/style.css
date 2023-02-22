@@ -1,0 +1,16 @@
+@charset "UTF-8"; 
+
+iframe{
+    width: 500px;
+    
+}
+h1 {
+    text-align: center;
+}
+body {
+
+    background-color: aqua;
+    color: brown;
+    text-transform: capitalize;
+    
+}

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+:root{
+        --cor01:#11393B;
+        --cor02:#194431;
+        --cor03:#89B173;
+        --cor04:#F0E6AB;
+        --cor05:#F0D17F;
+
+        --fonte-padrao:'Open Sans', sans-serif;
+}
+
+body{
+    background-color: var(--cor03);
+    margin: 0;
+}
+
+h1{
+    font-family: var(--fonte-padrao);
+    text-align: center;
+    text-decoration: underline;
+    margin: 5px;
+    padding: 20px;
+}
+
+.paragrafo{
+    text-indent: 20px;
+}
+
+main{
+    margin: auto;
+    max-width: 1450px;
+    min-width: 500px;
+    
+   
+    background-color: var(--cor05);
+    color: var(--cor02);
+    font-family: var(--fonte-padrao);
+    
+    border: 1px solid black;
+    outline: 1px solid black;
+
+    box-shadow: 4px 6px 1px 1px #393939;
+}
+
+.colorh1{
+    color: var(--cor03);
+}
+
+.posi{
+    width: 100%;
+    
+    
+}
+
