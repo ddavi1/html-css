@@ -1,0 +1,41 @@
+body{
+   
+    background-color: azure;
+
+}
+
+.all{
+        background-color: lightgray;
+
+        margin: 0;
+        padding: 5px;
+        border-radius: 3px;
+
+}
+.browser{
+            background-color: white;
+
+            border-radius: 3px;
+            margin: 10px;     
+
+}
+
+
+.all > h2,p {
+    margin: 4px;
+    font-size: 90%;
+}
+
+.all > h1, .browser{
+    margin: 10px;
+    padding: 5px;
+}
+
+.browser > h2 {
+    font-size: 20px ;
+    margin: 5px;
+}
+
+h1{
+    font-size: 30px;
+}

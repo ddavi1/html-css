@@ -1,0 +1,71 @@
+:root{
+
+    --color01: #666666;
+    --color02: #CCCCCC;
+    --color03: #F1F1F1;
+}
+*{
+    box-sizing: border-box; /* entenda essa propriedade */
+    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 1px 1px 1px black;
+}
+
+header{
+    background-color: var(--color01);
+    color: var(--color03);
+
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+nav{
+    float: left;  /* entenda essa propriedade */
+    width: 30%;
+    height: 300px;
+    background-color: var(--color02);
+}
+
+nav > ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+article{
+    float: left;      /* entenda essa propriedade */
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px;
+}
+
+section::after {
+    content: "";         /* entenda essa propriedade */
+    display: table;      /* entenda essa propriedade */
+    clear: both;         /* entenda essa propriedade */
+}
+
+footer{
+    background-color: var(--color01);
+    color: var(--color03);
+
+    padding: 10px;
+    text-align: center;
+}
+   
+@media (max-width: 600px) {            /* entenda essa propriedade */
+    nav, article {                         
+      width: 100%;
+      height: auto;
+    }
+}
+
+article > p {
+    text-indent: 20px;
+    text-align: justify;
+    
+}
